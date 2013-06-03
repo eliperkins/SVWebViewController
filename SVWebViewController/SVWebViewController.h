@@ -16,5 +16,10 @@
 - (id)initWithURL:(NSURL*)URL;
 
 @property (nonatomic, readwrite) SVWebViewControllerAvailableActions availableActions;
+@property (nonatomic, strong) UIBarButtonItem *backBarButtonItem;
+@property (nonatomic, strong) UIBarButtonItem *forwardBarButtonItem;
+@property (nonatomic, strong) UIBarButtonItem *refreshBarButtonItem;
+@property (nonatomic, strong) UIBarButtonItem *stopBarButtonItem;
+@property (nonatomic, strong) UIBarButtonItem *actionBarButtonItem;
 
 @end
